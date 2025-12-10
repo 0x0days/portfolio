@@ -58,9 +58,9 @@ export default function Features() {
           </div>
           {/* Items */}
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
-            <article className="h-full transition-all duration-300">
+            <article className="h-full transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/10">
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-indigo-500 transition-colors duration-300 group-hover:fill-indigo-300"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -71,17 +71,17 @@ export default function Features() {
                   d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                 />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200 transition-colors duration-300 group-hover:text-indigo-300">
                 Red Team Operations
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-indigo-200/65 transition-colors duration-300 group-hover:text-indigo-200/80">
                 Execute quarterly Red Team assessments using Cobalt Strike.
                 Implement APT simulation scenarios leveraging internal threat intelligence.
               </p>
             </article>
-            <article className="h-full transition-all duration-300">
+            <article className="h-full transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/10">
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-indigo-500 transition-colors duration-300 group-hover:fill-indigo-300"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -89,18 +89,18 @@ export default function Features() {
                 <path fillOpacity=".48" d="M7 8V0H5v8h2Zm12 16v-4h-2v4h2Z" />
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200 transition-colors duration-300 group-hover:text-indigo-300">
                 Purple Team Exercises
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-indigo-200/65 transition-colors duration-300 group-hover:text-indigo-200/80">
                 Conduct targeted Purple Team exercises.
                 Co-author a playbook for threat modeling.
                 Build and host an automated reporting system based on VECTR.
               </p>
             </article>
-            <article className="h-full transition-all duration-300">
+            <article className="h-full transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/10">
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-indigo-500 transition-colors duration-300 group-hover:fill-indigo-300"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -111,17 +111,17 @@ export default function Features() {
                   d="M13.01 12.508a2.5 2.5 0 0 0-3.502.482L1.797 23.16.203 21.952l7.71-10.17a4.5 4.5 0 1 1 7.172 5.437l-4.84 6.386-1.594-1.209 4.841-6.385a2.5 2.5 0 0 0-.482-3.503Z"
                 />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200 transition-colors duration-300 group-hover:text-indigo-300">
                 Red Team Infrastructure
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-indigo-200/65 transition-colors duration-300 group-hover:text-indigo-200/80">
                 Deploy and maintain Red Team infrastructure.
                 Implement IP/domain laundering mechanisms.
               </p>
             </article>
-            <article className="h-full transition-all duration-300">
+            <article className="h-full transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/10">
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-indigo-500 transition-colors duration-300 group-hover:fill-indigo-300"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -137,17 +137,17 @@ export default function Features() {
                 />
                 <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200 transition-colors duration-300 group-hover:text-indigo-300">
                 Security Systems
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-indigo-200/65 transition-colors duration-300 group-hover:text-indigo-200/80">
                 Implement large-scale external vulnerability scans system.
                 Develop proof of concept for deploying a micro-SOC on Azure.
               </p>
             </article>
-            <article className="h-full transition-all duration-300">
+            <article className="h-full transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/10">
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-indigo-500 transition-colors duration-300 group-hover:fill-indigo-300"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -158,17 +158,17 @@ export default function Features() {
                 />
                 <path d="m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z" />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200 transition-colors duration-300 group-hover:text-indigo-300">
                 Dashboard & Visualization
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-indigo-200/65 transition-colors duration-300 group-hover:text-indigo-200/80">
                 Co-create dynamic dashboard to map detection capabilities
                 to MITRE Matrix coverage based on Purple Team exercises results.
               </p>
             </article>
-            <article className="h-full transition-all duration-300">
+            <article className="h-full transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/10">
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-indigo-500 transition-colors duration-300 group-hover:fill-indigo-300"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -179,17 +179,17 @@ export default function Features() {
                   d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                 />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200 transition-colors duration-300 group-hover:text-indigo-300">
                 Malware Development
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-indigo-200/65 transition-colors duration-300 group-hover:text-indigo-200/80">
                 Develop custom versions of Rubeus with stealth evasion to bypass EDR solutions.
                 Focus on avoiding dropping IOCs that could trigger operations.
               </p>
             </article>
-            <article className="h-full transition-all duration-300">
+            <article className="h-full transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/10">
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-indigo-500 transition-colors duration-300 group-hover:fill-indigo-300"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -197,17 +197,17 @@ export default function Features() {
                 <path fillOpacity=".48" d="M7 8V0H5v8h2Zm12 16v-4h-2v4h2Z" />
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200 transition-colors duration-300 group-hover:text-indigo-300">
                 Pentesting Tools
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-indigo-200/65 transition-colors duration-300 group-hover:text-indigo-200/80">
                 Develop custom versions of SharpHound with stealth evasion.
                 Focus on bypassing EDR solutions and avoiding IOCs.
               </p>
             </article>
-            <article className="h-full transition-all duration-300">
+            <article className="h-full transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/10">
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-indigo-500 transition-colors duration-300 group-hover:fill-indigo-300"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -218,17 +218,17 @@ export default function Features() {
                   d="M13.01 12.508a2.5 2.5 0 0 0-3.502.482L1.797 23.16.203 21.952l7.71-10.17a4.5 4.5 0 1 1 7.172 5.437l-4.84 6.386-1.594-1.209 4.841-6.385a2.5 2.5 0 0 0-.482-3.503Z"
                 />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200 transition-colors duration-300 group-hover:text-indigo-300">
                 Credential Access
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-indigo-200/65 transition-colors duration-300 group-hover:text-indigo-200/80">
                 Develop custom versions of Mimikatz with stealth evasion.
                 Focus on bypassing EDR solutions and avoiding IOCs.
               </p>
             </article>
-            <article className="h-full transition-all duration-300">
+            <article className="h-full transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/10">
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-indigo-500 transition-colors duration-300 group-hover:fill-indigo-300"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -239,10 +239,10 @@ export default function Features() {
                 />
                 <path d="M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z" />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200 transition-colors duration-300 group-hover:text-indigo-300">
                 Penetration Testing
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-indigo-200/65 transition-colors duration-300 group-hover:text-indigo-200/80">
                 Perform penetration testing on critical applications and financial systems.
                 Conduct attack surface management for clients.
               </p>
